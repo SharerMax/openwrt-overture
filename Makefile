@@ -35,7 +35,7 @@ define Package/$(PKG_NAME)
 	CATEGORY:=Network
 	TITLE:=Overture is a DNS server/forwarder/dispatcher written in Go.
 	URL:=https://github.com/shawn1m/overture
-	DEPENDS:=$(GO_ARCH_DEPENDS) +ca-certificates
+	DEPENDS:=$(GO_ARCH_DEPENDS)
 endef
 
 define Package/$(PKG_MAME)/description
